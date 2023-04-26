@@ -1,3 +1,8 @@
+body {
+  background-image: url('img/header-illsutration-mobile.png');
+  background-repeat: no-repeat;
+}
+
 h6 {
   display: flex;
   flex-wrap: wrap;
