@@ -45,12 +45,11 @@ i {
 .images {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  filter: grayscale(100%);
+  padding: 0;
+  gap: 19px;
   list-style-type: none;
-  margin-right: 5em;
-  -webkit-filter: sepia(100%) hue-rotate(200deg); 
 }
 
 .images:hover {
