@@ -91,6 +91,21 @@ body {
   line-height: 52px;
 }
 
+.header-5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  font-size: 40px;
+  margin-top: 65px;
+}
+
 .paragraph {
   display: flex;
   flex-wrap: wrap;
