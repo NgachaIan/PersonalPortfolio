@@ -130,10 +130,11 @@ i {
 .images {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   list-style-type: none;
-  margin-right: 5em;
+  gap: 19px;
+  padding: 0;
 }
 
 .scroll {
@@ -393,11 +394,12 @@ textarea {
 .images-1 {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: -20px;
+  gap: 19px;
   align-items: center;
   list-style-type: none;
-  margin-right: 2em;
+  padding: 0;
 }
 
 .contact {
