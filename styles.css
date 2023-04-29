@@ -1,10 +1,26 @@
+
 body {
+  margin: 0;
+}
+
+section {
   background-image: url('img/header-illsutration-mobile.png');
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+}
+
+nav {
+  margin-top: 18px;
+  font-size: 1.4em;
+  margin-left: 85%;
 }
 
 .text_color{
-  color: green;
+  color: #36b37e;
 }
 
 .header {
@@ -12,10 +28,10 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-family: Inter;
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 52px;
   text-align: center;
   color: #172b4d;
@@ -26,7 +42,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -34,12 +50,6 @@ body {
   text-align: center;
   color: #172b4d;
   margin-top: -1em;
-}
-
-i {
-  display: flex;
-  align-items: flex-end;
-  margin-left: 95%;
 }
 
 .images {
