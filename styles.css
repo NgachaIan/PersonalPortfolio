@@ -193,6 +193,8 @@ i {
   height: 48px;
   background: #36B37F;
   border-radius: 4px;
+  outline: none;
+  border: none;
 }
 
 .btn-1 {
@@ -211,6 +213,8 @@ i {
   background: #36B37F;
   border-radius: 4px;
   width: 153px;
+  outline: none;
+  border: none;
 }
 
 .btn-2 {
@@ -229,6 +233,8 @@ i {
   border-radius: 4px;
   width: 129px; 
   margin-top: -15px;
+  outline: none;
+  border: none;
 }
 
 .text {
@@ -269,21 +275,37 @@ i {
   filter: none;
 }
 
-.mask {
-  position: absolute;
-  width: 68px;
-  height: 127px;
-  top: 3820px;
-  left: 310px;
- 
+#about-id {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
-.frame {
+#about-id::before {
+  content: "";
   position: absolute;
-  width: 100px;
+  top: 0;
+  left: 300px;
+  width: 68px;
+  height: 128px;
+  background-image: url('img/Mask Group.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+#about-id::after {
+  content: "";
+  position: absolute;
+  width: 127.02px;
   height: 56.99px;
-  left: 0px;
-  top: 4140px;
+  left: 0;
+  top: 310px;
+  background-image: url('img/Frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 2;
 }
 
 .grid-item-1 {
@@ -304,6 +326,42 @@ i {
   height: 80px;
   left: calc(50% - 80px/2 + 0.5px);
   top: calc(50% - 80px/2);
+}
+
+#one {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  left: calc(50% - 80px/2 + 0.5px);
+  top: calc(50% - 80px/2);
+  background-image: url('img/icon-languages.png');
+  background-size: contain; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+}
+
+#two {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  left: calc(50% - 80px/2 + 0.5px);
+  top: calc(50% - 80px/2);
+  background-image: url('img/icon-frameworks.png');
+  background-size: contain; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+}
+
+#three {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  left: calc(50% - 80px/2 + 0.5px);
+  top: calc(50% - 80px/2);
+  background-image: url('img/icon-skills.png');
+  background-size: contain; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
 }
 
 .image-container-1 {
@@ -375,7 +433,7 @@ textarea {
   position: relative;
   width: 10.5px;
   height: 10.5px;
-  left: 300px;
+  left: 310px;
   top: -25px;
   mix-blend-mode: normal;
 }
@@ -402,12 +460,18 @@ textarea {
   padding: 0;
 }
 
-.contact {
+#four {
+  content: "";
   position: relative;
   width: 90.81px;
-  height: 130;
-  left: 280px;
+  height: 130px;
+  left: 295px;
   top: -220px;
+  background-image: url('img/illustration.png');
+  background-size: contain; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  z-index: 3;
 }
 
 @media only screen and (min-width: 375px) {
