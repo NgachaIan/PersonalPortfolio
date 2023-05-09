@@ -46,6 +46,91 @@ nav {
   color: #172b4d;
 }
 
+.header-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  font-size: 24px; 
+  margin-top: 16px; 
+  font-weight: 600; 
+  width: 295px; 
+  line-height: 32px; 
+  color: #3a4a42; 
+  margin-left: 16px; 
+  margin-right: 16px;
+}
+
+.header-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  font-size: 40px; 
+  margin-top: 65px;
+  color: #172b4d;
+}
+
+.header-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #172b4d;
+  font-size: 24px; 
+  margin-top: 16px; 
+  font-weight: 600; 
+  width: 337px; 
+  line-height: 32px; 
+  color: #344563; 
+  flex: none; 
+  order: 0; 
+  flex-grow: 0;
+}
+
+.header-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #172b4d;
+  font-size: 40px; 
+  margin-top: 60px; 
+  line-height: 52px;
+}
+
+.header-5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  font-size: 40px;
+  margin-top: 65px;
+}
+
 .paragraph {
   display: flex;
   flex-wrap: wrap;
@@ -64,32 +149,223 @@ nav {
 .images {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 0;
-  gap: 19px;
-  margin-top: 10px;
+  filter: grayscale(100%);
   list-style-type: none;
-}
-
-.images-1 {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin-top: 70px;
-  list-style-type: none;
+  margin-right: 5em;
+  -webkit-filter: sepia(100%) hue-rotate(200deg); 
 }
 
 .images:hover {
   filter: none;
 }
 
+#about-id {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#about-id::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 300px;
+  width: 68px;
+  height: 128px;
+  background-image: url('img/Mask Group.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+#about-id::after {
+  content: "";
+  position: absolute;
+  width: 127.02px;
+  height: 56.99px;
+  left: 0;
+  top: 310px;
+  background-image: url('img/Frame.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 2;
+}
+
+.grid-item-1 {
+  display: grid;
+  box-sizing: border-box;
+  background: #EBF0EE;
+  border: 1px solid #c1c7d0;
+  border-radius: 8px;
+  align-items: center;
+  margin: 0 auto;
+  width: 327px;
+  height: 316px;
+}
+
+.icon-language {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  left: calc(50% - 80px/2 + 0.5px);
+  top: calc(50% - 80px/2);
+}
+
+#one {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  left: calc(50% - 80px/2 + 0.5px);
+  top: calc(50% - 80px/2);
+  background-image: url('img/icon-languages.png');
+  background-size: contain; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+}
+
+#two {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  left: calc(50% - 80px/2 + 0.5px);
+  top: calc(50% - 80px/2);
+  background-image: url('img/icon-frameworks.png');
+  background-size: contain; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+}
+
+#three {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  left: calc(50% - 80px/2 + 0.5px);
+  top: calc(50% - 80px/2);
+  background-image: url('img/icon-skills.png');
+  background-size: contain; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+}
+
+.image-container-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 5px;
+  margin-top: -15px;
+}
+.image-container-1 li {
+  align-items: center;
+}
+
+.form {
+  max-width: 327px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #D0D9D4;;
+  border-radius: 4px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 150px;
+}
+
+.input-text {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #6B778C;
+
+}
+
+.input-message {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  height: 114px;
+  color: #42526E;
+}
+
+.union {
+  position: relative;
+  width: 10.5px;
+  height: 10.5px;
+  left: 310px;
+  top: -25px;
+  mix-blend-mode: normal;
+}
+
+.email {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin-top: -55px;
+  color: #42526E;
+}
+
+.images-1 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: -20px;
+  gap: 19px;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+#four {
+  content: "";
+  position: relative;
+  width: 90.81px;
+  height: 130px;
+  left: 295px;
+  top: -220px;
+  background-image: url('img/illustration.png');
+  background-size: contain; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  z-index: 3;
+}
+
 @media only screen and (min-width: 375px) {
   body {
     font-size: 16px;
   }
+
+
 }
 
 @media only screen and (min-width: 768px) {
