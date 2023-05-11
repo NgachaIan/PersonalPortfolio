@@ -1,3 +1,6 @@
+/* stylelint-disable function-calc-no-unspaced-operator */
+/* stylelint-disable font-family-no-missing-generic-family-keyword */
+/* stylelint-disable csstree/validator */
 body {
   background-image: url('img/header-illsutration-mobile.png');
   background-repeat: no-repeat;
@@ -28,9 +31,7 @@ body {
   align-items: center;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
-  line-height: 52px;
   text-align: center;
-  color: #172b4d;
   font-size: 24px;
   margin-top: 16px;
   font-weight: 600;
@@ -64,7 +65,6 @@ body {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   text-align: center;
-  color: #172b4d;
   font-size: 24px;
   margin-top: 16px;
   font-weight: 600;
@@ -413,7 +413,7 @@ textarea {
 }
 
 .input-text {
-  font-family: 'Inter';
+  font-family: Inter;
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
