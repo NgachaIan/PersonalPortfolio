@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.text_color{
+.text_color {
   color: green;
 }
 
@@ -31,13 +31,13 @@ body {
   line-height: 52px;
   text-align: center;
   color: #172b4d;
-  font-size: 24px; 
-  margin-top: 16px; 
-  font-weight: 600; 
-  width: 295px; 
-  line-height: 32px; 
-  color: #3a4a42; 
-  margin-left: 16px; 
+  font-size: 24px;
+  margin-top: 16px;
+  font-weight: 600;
+  width: 295px;
+  line-height: 32px;
+  color: #3a4a42;
+  margin-left: 16px;
   margin-right: 16px;
 }
 
@@ -51,7 +51,7 @@ body {
   font-weight: 700;
   line-height: 52px;
   text-align: center;
-  font-size: 40px; 
+  font-size: 40px;
   margin-top: 65px;
   color: #172b4d;
 }
@@ -65,14 +65,14 @@ body {
   font-style: normal;
   text-align: center;
   color: #172b4d;
-  font-size: 24px; 
-  margin-top: 16px; 
-  font-weight: 600; 
-  width: 337px; 
-  line-height: 32px; 
-  color: #344563; 
-  flex: none; 
-  order: 0; 
+  font-size: 24px;
+  margin-top: 16px;
+  font-weight: 600;
+  width: 337px;
+  line-height: 32px;
+  color: #344563;
+  flex: none;
+  order: 0;
   flex-grow: 0;
 }
 
@@ -86,8 +86,8 @@ body {
   font-weight: 700;
   text-align: center;
   color: #172b4d;
-  font-size: 40px; 
-  margin-top: 60px; 
+  font-size: 40px;
+  margin-top: 60px;
   line-height: 52px;
 }
 
@@ -157,24 +157,23 @@ i {
   row-gap: 25px;
 }
 
-.grid-item{
+.grid-item {
   display: grid;
-  background:#EBF0EE;
-  border: 1px solid #D0D9D4;
+  background: #ebf0ee;
+  border: 1px solid #d0d9d4;
   margin: 0 auto;
   width: 327px;
   height: 474px;
 }
 
 .grid-item-top {
-  background: #EBF0EE;
+  background: #ebf0ee;
   height: 237px;
 }
 
 .grid-item-bottom {
   background: white;
   height: 237px;
-  
 }
 
 .btn {
@@ -191,7 +190,7 @@ i {
   position: relative;
   width: 122px;
   height: 48px;
-  background: #36B37F;
+  background: #36b37f;
   border-radius: 4px;
   outline: none;
   border: none;
@@ -210,7 +209,7 @@ i {
   margin-bottom: 24px;
   position: relative;
   height: 48px;
-  background: #36B37F;
+  background: #36b37f;
   border-radius: 4px;
   width: 153px;
   outline: none;
@@ -229,14 +228,15 @@ i {
   margin-bottom: 24px;
   position: relative;
   height: 48px;
-  background: #36B37F;
+  background: #36b37f;
   border-radius: 4px;
-  width: 129px; 
+  width: 129px;
   margin-top: -15px;
   outline: none;
   border: none;
   cursor: pointer;
 }
+
 .btn-2:hover {
   background-color: purple;
 }
@@ -253,7 +253,7 @@ i {
   text-align: center;
   justify-content: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -315,7 +315,7 @@ i {
 .grid-item-1 {
   display: grid;
   box-sizing: border-box;
-  background: #EBF0EE;
+  background: #ebf0ee;
   border: 1px solid #c1c7d0;
   border-radius: 8px;
   align-items: center;
@@ -339,9 +339,9 @@ i {
   left: calc(50% - 80px/2 + 0.5px);
   top: calc(50% - 80px/2);
   background-image: url('img/icon-languages.png');
-  background-size: contain; 
-  background-position: center center; 
-  background-repeat: no-repeat; 
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 #two {
@@ -351,9 +351,9 @@ i {
   left: calc(50% - 80px/2 + 0.5px);
   top: calc(50% - 80px/2);
   background-image: url('img/icon-frameworks.png');
-  background-size: contain; 
-  background-position: center center; 
-  background-repeat: no-repeat; 
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 #three {
@@ -363,9 +363,9 @@ i {
   left: calc(50% - 80px/2 + 0.5px);
   top: calc(50% - 80px/2);
   background-image: url('img/icon-skills.png');
-  background-size: contain; 
-  background-position: center center; 
-  background-repeat: no-repeat; 
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .image-container-1 {
@@ -379,6 +379,7 @@ i {
   gap: 5px;
   margin-top: -15px;
 }
+
 .image-container-1 li {
   align-items: center;
 }
@@ -399,11 +400,11 @@ input[type="email"],
 textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #D0D9D4;;
+  border: 1px solid #d0d9d4;
   border-radius: 4px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   font-size: 16px;
-  background: #ffffff;
+  background: #fff;
   box-sizing: border-box;
 }
 
@@ -419,8 +420,7 @@ textarea {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #6B778C;
-
+  color: #6b778c;
 }
 
 .input-message {
@@ -430,7 +430,7 @@ textarea {
   font-size: 15px;
   line-height: 24px;
   height: 114px;
-  color: #42526E;
+  color: #42526e;
 }
 
 .union {
@@ -450,7 +450,7 @@ textarea {
   line-height: 32px;
   text-align: center;
   margin-top: -55px;
-  color: #42526E;
+  color: #42526e;
 }
 
 .images-1 {
@@ -472,17 +472,16 @@ textarea {
   left: 295px;
   top: -220px;
   background-image: url('img/illustration.png');
-  background-size: contain; 
-  background-position: center center; 
-  background-repeat: no-repeat; 
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
   z-index: 3;
 }
 
-@media only screen and (min-width: 375px){
+@media only screen and (min-width: 375px) {
   body {
     font-size: 16px;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
