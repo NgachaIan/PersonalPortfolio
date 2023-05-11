@@ -1,6 +1,6 @@
 /* stylelint-disable function-calc-no-unspaced-operator */
 /* stylelint-disable font-family-no-missing-generic-family-keyword */
-/* stylelint-disable csstree/validator */
+
 body {
   background-image: url('img/header-illsutration-mobile.png');
   background-repeat: no-repeat;
@@ -520,6 +520,6 @@ textarea {
 
 @media only screen and (min-width: 768px) {
   body {
-    font-size: 25px;
+    font-size: 15px;
   }
 }
