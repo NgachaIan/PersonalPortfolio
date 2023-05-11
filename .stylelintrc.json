@@ -3,5 +3,5 @@
         "indentation": 2
     },
     "stylelint.validate": ["css", "scss"]
-  }
+}
   
