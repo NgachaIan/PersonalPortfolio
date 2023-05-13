@@ -890,6 +890,18 @@ textarea {
     margin: 0;
     padding: 0;
   }
+  .grid-item {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: #ebf0ee;
+    border: 1px solid #d0d9d4;
+    margin: 0 auto;
+    width: 350px;
+    height: 474px;
+    border-radius: 8px;
+  }
 
   #about-id::before {
     display: flex;
