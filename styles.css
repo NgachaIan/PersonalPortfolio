@@ -802,6 +802,7 @@ textarea {
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
+  overflow: hidden;
   z-index: 3;
 }
 
@@ -844,6 +845,10 @@ textarea {
     background-image: url('img/header-illsutration-mobile.png');
     background-repeat: no-repeat;
     background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
   }
   .container {
     padding-top: 50px;
@@ -869,7 +874,7 @@ textarea {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    grid-gap: 30px 25px;
+    grid-gap: 25px 30px;
     width: 100%;
     margin: 0;
   }
@@ -933,10 +938,10 @@ textarea {
   }
   .grid-container-1 {
     grid-template-columns: 1fr;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    justify-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
     gap: 10px;
     width: 100%;
     margin: 0;
