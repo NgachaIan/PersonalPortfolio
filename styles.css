@@ -247,16 +247,6 @@
   border-radius: 8px;
 }
 
-.grid-item-3 {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin: 0 auto;
-  width: 369px;
-  height: 474px;
-  border-radius: 8px;
-  margin-top: -10%;
-}
-
 .grid-item-top {
   background: #ebf0ee;
   height: 237px;
