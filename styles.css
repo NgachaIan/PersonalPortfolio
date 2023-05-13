@@ -796,7 +796,7 @@ textarea {
   content: "";
   width: 313.9px;
   height: 448.7px;
-  margin-left: 550%;
+  margin-left: 620%;
   margin-top: -400%;
   background-image: url('img/contact\ form-illustratoin-3-desktop.png');
   background-size: contain;
@@ -814,7 +814,7 @@ textarea {
   content: "";
   width: 235.78px;
   height: 261.79px;
-  margin-left: -300%;
+  margin-left: -400%;
   margin-top: -300%;
   background-image: url('img/illustration-1-contact-form-desktop.png');
   background-size: contain;
@@ -831,7 +831,7 @@ textarea {
   content: "";
   width: 130.28px;
   height: 105.85px;
-  margin-left: -380%;
+  margin-left: -390%;
   margin-top: -260%;
   background-image: url('img/illustration-2-contact-form-desktop.png');
   background-size: contain;
@@ -1108,7 +1108,7 @@ textarea {
     content: "";
     width: 287.84px;
     height: 150px;
-    margin-left: -15%;
+    margin-left: -35%;
     margin-top: -15%;
     background-image: url('img/Group.png');
     background-repeat: no-repeat;
@@ -1124,7 +1124,7 @@ textarea {
     content: "";
     width: 269.55px;
     height: 244.78px;
-    margin-left: 85%;
+    margin-left: 110%;
     margin-top: -25%;
     background-image: url('img/Group1.png');
     background-repeat: no-repeat;
