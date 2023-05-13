@@ -247,6 +247,16 @@
   border-radius: 8px;
 }
 
+.grid-item-3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 0 auto;
+  width: 369px;
+  height: 474px;
+  border-radius: 8px;
+  margin-top: -10%;
+}
+
 .grid-item-top {
   background: #ebf0ee;
   height: 237px;
@@ -796,7 +806,7 @@ textarea {
   content: "";
   width: 313.9px;
   height: 448.7px;
-  margin-left: 620%;
+  margin-left: 660%;
   margin-top: -400%;
   background-image: url('img/contact\ form-illustratoin-3-desktop.png');
   background-size: contain;
@@ -814,7 +824,7 @@ textarea {
   content: "";
   width: 235.78px;
   height: 261.79px;
-  margin-left: -400%;
+  margin-left: -470%;
   margin-top: -300%;
   background-image: url('img/illustration-1-contact-form-desktop.png');
   background-size: contain;
